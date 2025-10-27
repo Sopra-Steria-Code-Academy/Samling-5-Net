@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EventDriven/.vs
+/EventDriven/obj
+/EventDriven/bin/Debug/net8.0
+/EventDrivenCommon/bin/Debug/net8.0
+/EventDrivenCommon/obj/Debug/net8.0
+/EventDrivenCommon/obj
+/EventDrivenCommon/obj/EventDrivenCommon.csproj.nuget.dgspec.json
+/EventDrivenCommon/.vs/EventDrivenCommon/FileContentIndex
