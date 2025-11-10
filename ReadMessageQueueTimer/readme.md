@@ -8,4 +8,5 @@ For a `TimerTrigger` to work, you provide a schedule in the form of a [cron expr
 
 ## Learn more
 
-<TODO> Documentation
+Run `azurite --blobPort 10001 --queuePort 10002 --tablePort 10003 --silent --location /tmp/azurite --debug /tmp/azurite/debug.log` in a terminal
+Then `func start --port 7072` in a seperate Terminal
