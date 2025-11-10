@@ -10,3 +10,5 @@
 /EventDrivenCommon/obj
 /EventDrivenCommon/obj/EventDrivenCommon.csproj.nuget.dgspec.json
 /EventDrivenCommon/.vs/EventDrivenCommon/FileContentIndex
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
