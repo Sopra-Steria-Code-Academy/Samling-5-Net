@@ -7,6 +7,15 @@ Default så kan du kommunisere med rabbitmq på port 5672.
 3. Gjør deg litt kjent inne i admin-panelet. Hvor ser man connections? Exchanger? Køer?
 4. Gjør deg kjent med innholdet i `RabbitMQConnectionHelper.cs`
 5. Gjør deg kjent med innholdet i `RabbitMQCont.cs`
+5. Når du skal bruke RabbitMQConnectionHelper for å lage en klient må du sende med RabbitMQ passord og brukernavn. Lagre dette som user secrets i prosjektet du jobber med.
+6. ReadMessageQueueTimer og PublishMessage er laget som Azure Functions. Har du ikke dette installert kan du gjøre dette slik:
+ - Mac: 
+   - Installer Azurite for å kunne lagre i blobstorage `npm install -g azurite`
+   - Kjør azurite: `azurite --blobPort 10001 --queuePort 10002 --tablePort 10003 --silent --location /tmp/azurite --debug /tmp/azurite/debug.log`
+   - Installer func commando: `brew tap azure/functions && brew install azure-functions-core-tools@4`
+   - Kjør function: `func start --port 7072`
+ - PC:
+   - https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-csharp 
 
 ### FANOUT
 1. Lag deg et .net-program 'PUBLISHER' som opprett en exchange av typen fanout. Skriv kode som med jevne mellomrom poster data til denne exchangen, f.eks hvert 5 sekund.
