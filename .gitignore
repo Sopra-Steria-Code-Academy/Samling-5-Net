@@ -10,3 +10,7 @@
 /EventDrivenCommon/obj
 /EventDrivenCommon/obj/EventDrivenCommon.csproj.nuget.dgspec.json
 /EventDrivenCommon/.vs/EventDrivenCommon/FileContentIndex
+ReadMessageQueue/obj/project.nuget.cache
+ReadMessageQueueTimer2/obj
+ReadMessageQueueTimer2/bin
+ReadMessageQueueTimer/obj
