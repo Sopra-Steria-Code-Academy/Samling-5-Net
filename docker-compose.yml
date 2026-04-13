@@ -1,4 +1,3 @@
-version: "3.2"
 services:
   rabbitmq:
     image: rabbitmq:4.1.4-management-alpine
@@ -9,9 +8,33 @@ services:
     volumes:
       - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
       - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 10s
+      timeout: 5s
+      retries: 5
     networks:
-      - rabbitmq_go_net
+      - eventdriven_net
+
+  postgres:
+    image: postgres:17-alpine
+    container_name: 'postgres_ca'
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: eventdriven
+    volumes:
+      - ~/.docker-conf/postgres/data/:/var/lib/postgresql/data/
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - eventdriven_net
 
 networks:
-  rabbitmq_go_net:
+  eventdriven_net:
     driver: bridge

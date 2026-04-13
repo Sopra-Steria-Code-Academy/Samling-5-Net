@@ -1,0 +1,13 @@
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/bin/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.deps.json
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/bin/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.dll
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/bin/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.pdb
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.csproj.AssemblyReference.cache
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.AssemblyInfoInputs.cache
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.AssemblyInfo.cs
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.csproj.CoreCompileInputs.cache
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.sourcelink.json
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.dll
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/refint/EventDrivenDotnet.ServiceDefaults.dll
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/EventDrivenDotnet.ServiceDefaults.pdb
+/Users/lars.klingenberg/dev/Samling-5-Net/EventDrivenDotnet.ServiceDefaults/obj/Debug/net10.0/ref/EventDrivenDotnet.ServiceDefaults.dll
